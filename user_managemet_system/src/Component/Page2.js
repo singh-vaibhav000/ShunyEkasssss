@@ -3,7 +3,7 @@ import { useSearchParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 const Page2 = () => {
-  const API_URL='http://localhost:5000/';
+  const API_URL='https://backends-ieng.onrender.com/';
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
