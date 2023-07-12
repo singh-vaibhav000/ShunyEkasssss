@@ -1,0 +1,37 @@
+.table{
+  /* border: 1px solid black; */
+  margin-left: 32%;
+  margin-top: 100px;
+  padding: 20px;
+}
+.tr td{
+  border: 1px solid black;
+  padding: 10px;
+}
+.tr th{
+  border: 1px solid black;
+  padding: 10px;
+}
+.home_div{
+  text-align: center;
+  margin-top: 10px;
+  padding: 20px;
+}
+.home_div1{
+ background-color: aliceblue;
+}
+.pageDiv{
+background-color: antiquewhite;
+text-align: center;
+margin-top: 100px;
+}
+.inp{
+margin: 10px;
+padding: 10px;
+}
+.button{
+margin: 10px;
+}
+.pageDiv label{
+  font-size: 20px;
+}
