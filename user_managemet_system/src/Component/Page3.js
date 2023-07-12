@@ -12,7 +12,7 @@ const Page3=()=>{
   const Perticularlist=async ()=>{
 
     // let key=event.target.value;
-    let result=await fetch(`http://localhost:5000/list/${querySource}`);
+    let result=await fetch(`https://backends-ieng.onrender.com/list/${querySource}`);
     // console.log(result);
     result=await result.json()
    
