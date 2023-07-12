@@ -10,7 +10,7 @@ const Home=()=>{
   }, []);
 
   const getProducts = async () => {
-    let result = await fetch("http://localhost:5000/lists");
+    let result = await fetch("https://backends-ieng.onrender.com/lists");
     result = await result.json();
     // console.log(result);
     setProducts(result);
@@ -28,7 +28,7 @@ const Home=()=>{
   }
   const del = async (id) => {
     console.log(id);
-    let result = await fetch(`http://localhost:5000/list/${id}`, {
+    let result = await fetch(`https://backends-ieng.onrender.com/list/${id}`, {
       method: "Delete",
     });
     result = await result.json();
